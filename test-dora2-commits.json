@@ -1,0 +1,55 @@
+{
+  "repository": "nx-tc-config-payments",
+  "branch": "main",
+  "commits": [
+    {
+      "sha": "b7f1a2c",
+      "author": "veronica.gomez",
+      "message": "feat: add timeout configuration for payments service",
+      "createdAt": "2026-02-01T09:15:00Z",
+      "filesChanged": 3,
+      "linesAdded": 42,
+      "linesRemoved": 5
+    },
+    {
+      "sha": "c9d8e44",
+      "author": "veronica.gomez",
+      "message": "fix: correct protocol configuration for internal service calls",
+      "createdAt": "2026-02-02T11:40:00Z",
+      "filesChanged": 2,
+      "linesAdded": 18,
+      "linesRemoved": 2
+    },
+    {
+      "sha": "e1f4a9d",
+      "author": "veronica.gomez",
+      "message": "chore: update documentation for deployment process",
+      "createdAt": "2026-02-03T16:05:00Z",
+      "filesChanged": 1,
+      "linesAdded": 12,
+      "linesRemoved": 0
+    },
+    {
+      "sha": "f3a91bc",
+      "author": "veronica.gomez",
+      "message": "refactor: simplify configuration loading logic",
+      "createdAt": "2026-02-04T08:55:00Z",
+      "filesChanged": 4,
+      "linesAdded": 65,
+      "linesRemoved": 40
+    },
+    {
+      "sha": "a8c2d7f",
+      "author": "veronica.gomez",
+      "message": "fix: handle connection errors during config server startup",
+      "createdAt": "2026-02-05T13:20:00Z",
+      "filesChanged": 2,
+      "linesAdded": 27,
+      "linesRemoved": 6
+    }
+  ],
+  "metadata": {
+    "purpose": "dummy-commits-for-dora-metrics-testing",
+    "generatedAt": "2026-02-06T19:10:00Z"
+  }
+}
