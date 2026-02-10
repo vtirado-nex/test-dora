@@ -1,5 +1,5 @@
 {
-  "service": "tc-config-payments",
+  "service": "tc-config-payment",
   "team": "nexus-platform",
   "environment": "production",
   "doraMetrics": {
