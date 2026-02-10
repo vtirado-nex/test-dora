@@ -1,0 +1,45 @@
+{
+  "service": "tc-config-payments",
+  "team": "nexus-platform",
+  "environment": "production",
+  "doraMetrics": {
+    "deploymentFrequency": {
+      "period": "weekly",
+      "deployments": 5,
+      "lastDeployment": "2026-02-05T14:32:10Z"
+    },
+    "leadTimeForChanges": {
+      "averageHours": 18,
+      "p95Hours": 36,
+      "lastChange": {
+        "commitId": "a3f9c21",
+        "createdAt": "2026-02-04T20:10:00Z",
+        "deployedAt": "2026-02-05T14:32:10Z"
+      }
+    },
+    "changeFailureRate": {
+      "totalDeployments": 20,
+      "failedDeployments": 2,
+      "failureRatePercent": 10,
+      "lastFailure": {
+        "deploymentId": "deploy-2026-01-28-01",
+        "reason": "TLS configuration mismatch",
+        "rollbackRequired": true
+      }
+    },
+    "meanTimeToRestore": {
+      "averageMinutes": 25,
+      "p95Minutes": 45,
+      "lastIncident": {
+        "incidentId": "INC-45678",
+        "startedAt": "2026-01-28T10:15:00Z",
+        "resolvedAt": "2026-01-28T10:40:00Z"
+      }
+    }
+  },
+  "metadata": {
+    "source": "dummy-data",
+    "generatedBy": "observability-team",
+    "generatedAt": "2026-02-06T18:00:00Z"
+  }
+}
